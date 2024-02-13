@@ -36,7 +36,7 @@ $('.center').slick({
 async function fetchData() {
     try {
         // URL of the JSON endpoint 
-        const url = '../../Index.html/cardsEn.json';
+        const url = '../../index.html/cardsEn.json';
         const response = await fetch(url);
         // Check if the response is successful 
         if (!response.ok) {
